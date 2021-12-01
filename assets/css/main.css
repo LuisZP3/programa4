@@ -115,6 +115,9 @@ input, select, textarea {
 
 /* Type */
 
+
+
+
 	html {
 		font-size: 16pt;
 	}
@@ -4810,3 +4813,28 @@ input, select, textarea {
 }
 
 .modal-body {padding: 2px 16px;}
+
+.rojo{
+	color:red;
+	font-size:3rem;
+}
+.negro{
+	color:black;
+	font-size:3rem;
+}
+
+.cambiandocolor{
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: rgb(61, 160, 69);
+} 
+.enlinea{
+	display: inline;
+	background-color: #f1f1f1;
+	padding-left:4px ;
+	padding-right:4px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 40px;
+	border:solid 1px;
+}
