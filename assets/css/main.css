@@ -4761,10 +4761,6 @@ input, select, textarea {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-#MiWaifu {
-	width: 100%;
-	height: 100%;
-}
 /* Modal Content */
 .modal-content {
   position: relative;
@@ -4808,7 +4804,7 @@ input, select, textarea {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #B851EB;
+  background-color: black;
   color: white;
 }
 
@@ -4837,4 +4833,7 @@ input, select, textarea {
 	line-height: 75px;
 	font-size: 40px;
 	border:solid 1px;
+}
+.goog-te-gadget-icon{
+    display:none;
 }
